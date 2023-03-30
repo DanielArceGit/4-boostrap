@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuppon</title>
+
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo-white" src="assets/logo/logo-white.png" alt="logo-white"></a>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section 1, 3 cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/01.jpg" class="card-img-top" alt="landscape1">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 1</h5>
+                    <p class="text-muted">Descripción destino 1: Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Possimus, ipsum.</p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$450.990</small>
+                    <p class="pricegreen p-1 m-1">$220.990</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/02.jpg" class="card-img-top" alt="landscape2">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 2</h5>
+                    <p class="text-muted">descripción del destino 2: Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Minus, totam!</p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$300.990</small>
+                    <p class="pricegreen p-1 m-1">$120.990</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/03.jpg" class="card-img-top" alt="landscape3">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 3</h5>
+                    <p class="text-muted">descripción del destino 3: Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Provident, quos.
+                    </p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$300.000</small>
+                    <p class="pricegreen  p-1 m-1">$130.990</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2, 3 cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/04.jpg" class="card-img-top" alt="landscape4">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 4</h5>
+                    <p class="text-muted">descripción del destino 4: Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nam, praesentium.</p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$420.000</small>
+                    <p class="pricegreen p-1 m-1">$200.990</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/05.jpg" class="card-img-top" alt="landscape5">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 5</h5>
+                    <p class="text-muted">descripción del destino 5: Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Perspiciatis, iste?</p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$400.000</small>
+                    <p class="pricegreen p-1 m-1">$160.990</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mt-5">
+            <div class="card h-100">
+                <img src="assets/img/06.jpg" class="card-img-top" alt="landscape6">
+                <div class="card-body pt-0">
+                    <h5 class="card-title">Destino 6</h5>
+                    <p class="text-muted">descripción del destino 6: Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio, perferendis?</p>
+                    <div class="locationmap">
+                        <i class="fa-solid fa-location-dot map-marker text-muted p-1"></i>
+                        <p class="text-muted">9999 ciudad, país</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted p-1 m-2 pricegrey">$650.000</small>
+                    <p class="pricegreen p-1 m-1">$300.990</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <form class=" mx-5 px-5">
+        <div class="mb-3 d-flex flex-column align-items-center">
+            <h2>Recibe cupones en tu correo</h2>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 d-flex flex-column align-items-center">
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-light mb-3">Submit</button>
+        </div>
+    </form>
+
+    <!-- footer -->
+    <footer class="mt-3">
+        <img class="logo-black" src="assets/logo/logo-black.png" alt="logo-black">
+        <p class="text-muted">© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
